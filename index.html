@@ -48,14 +48,29 @@
             border-radius: 8px;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
         }
-        .email-link {
+            /* Style only button-like links */
+        .button-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+    
+        .button-link:hover {
+            background-color: #0056b3;
+        }
+        .contact a {
             color: #007bff;
             text-decoration: none;
-            font-weight: bold;
-            display: inline-block;
-            margin-top: 10px;
+            font-weight: normal;
+            background: none;
+            padding: 0;
+            display: inline; /* Makes sure it behaves like a normal text link */
         }
-        .email-link:hover {
+        .contact a:hover {
             text-decoration: underline;
         }
     </style>
@@ -75,8 +90,8 @@
         <li>Search and save up to three additional locations for faster forecasts</li>
     </ul>
 
-    <a href="privacy.html">Privacy Policy</a>
-
+    <a href="privacy.html" class="button-link">Privacy Policy</a>
+    
     <div class="faq">
         <h2>Frequently Asked Questions</h2>
         <div class="faq-item">
