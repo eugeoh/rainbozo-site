@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 600px;
+            max-width: 700px;
             margin: 40px auto;
             padding: 20px;
             text-align: center;
@@ -15,7 +15,7 @@
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+        h1, h2 {
             color: #333;
         }
         p {
@@ -25,6 +25,31 @@
         ul {
             text-align: left;
             padding-left: 20px;
+        }
+        .faq {
+            text-align: left;
+            margin-top: 30px;
+        }
+        .faq h2 {
+            text-align: center;
+        }
+        .faq-item {
+            margin-bottom: 15px;
+        }
+        .faq-item strong {
+            display: block;
+            color: #007bff;
+        }
+        .contact {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
         }
         a {
             display: inline-block;
@@ -56,5 +81,26 @@
     </ul>
 
     <a href="privacy.html">Privacy Policy</a>
+
+    <div class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <strong>Does Rainbozo collect my personal data?</strong>
+            <p>No. Rainbozo does not collect or store any personal data. Your saved locations are stored locally on your device and can be deleted at any time.</p>
+        </div>
+        <div class="faq-item">
+            <strong>Why does Rainbozo need my location?</strong>
+            <p>We use your location to provide accurate, real-time weather forecasts. Your location is processed in real time and is never stored or shared.</p>
+        </div>
+        <div class="faq-item">
+            <strong>Can I check the weather for multiple locations?</strong>
+            <p>Yes, you can search and save up to three additional locations for quick access to their forecasts.</p>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to reach out to us at <a href="mailto:rainbozo2024@gmail.com">rainbozo2024@gmail.com</a>.</p>
+    </div>
 </body>
 </html>
